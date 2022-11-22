@@ -1,0 +1,328 @@
+/* General style rules */
+* {
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    background-color: #F2F4FC;
+}
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+p {
+    color:#6B708D;
+    font-size: 20px;
+}
+h5{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+/* Navigation css */
+.nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 20px 0px 20px;
+    margin: 0px 50px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+li {
+    margin: 0px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #6B708D;
+}
+
+li a:hover{
+    color: #072AC8;
+}
+
+.contact-button{
+    background-color: #072AC8;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    text-decoration: none;
+}
+/* questions and email form css */
+.questions{
+    height: 500px;
+    background-color: #FFC600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.questions h3, .questions p, form {
+    background-color: #FFC600;
+}
+#butt-sub{
+    padding: 20px;
+    background-color: #072AC8;
+    color: white;
+    border: none;
+    height: 80px;
+    width: 198px;
+    margin-left: 10px;
+}
+#email{
+    height: 80px;
+    width: 393px;
+    border: none;
+    background-image: url('/project-assets/newsletter/icon/mail.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    position: left;
+    padding-left: 80px;
+    background-position-x: 30px;
+}
+#subscribe {
+    margin-top: 50px;
+}
+/* footer */
+footer{
+    height: 242px;
+    color:#6B708D;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px;
+    font-size: 15px;
+}
+#footer-link1 a{
+    margin: 40px;
+}
+#div-footer2{
+    margin-bottom: 60px;
+}
+#img-footer{
+width: 220px;
+}
+#footer-logo{
+    height: 30px;
+    width: 100px;
+    margin-bottom: 25px;
+}
+/* section Our Services */
+.cards-our-services{
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-bottom: 30px;
+}
+.div-cards{
+    height: 380px;
+    width: 340px;
+    background-color: white;
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.img-icon{
+    height: 33px;
+    width: 33px;
+    background-color: #D1EDFF;
+    border-radius: 80px;
+    background-size:cover;
+    background-size:200px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.div-cards p, .div-cards h5, .div-cards a{
+    margin-left: 40px;
+    background-color: white;
+    width: 65%;
+    margin-top: 20px;
+}
+.div-cards a {
+    color: #072AC8;
+}
+.div-cards p {
+    font-size: 20px;
+    font-weight: 100;
+}
+.our-services h3 {
+    margin-left: 14%;
+    margin-top: 5%;
+}
+
+/* testimonials section */
+.testimonials {
+    background-color: #292E47;
+    height: 622px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.emoji{
+    height: 150px;
+    width: 150px;
+    background-color: #292E47;
+    position: relative;
+    top: 80px;
+}
+.img-testimonials{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #292E47;
+    margin-top: 100px;
+}
+#testimonials-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+}
+#testimonials-text, #testimonials-text p, #testimonials-text h3, #testimonials-text div{
+    background-color: #292E47;
+    color: white;
+}
+#testim-p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.emoji1{
+    height: 150px;
+    width: 150px;
+    background-color: #292E47;
+    position: relative;
+    bottom: 180px;
+}
+#testimonials-text p{
+    color: #FFC600;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+#testimonials-text h3{
+    width: 140%;
+    position: relative;
+    bottom: 120px;
+}
+#testimonials-text div p{
+    font-size: 15px;
+    color: #D1EDFF;
+}
+#profile-testimonials{
+    height: 55px;
+    width: 60px;
+    border-radius: 80%;
+    margin-right: 20px;
+}
+.kristin{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+/* Recent projects */
+.img-recent-proj{
+    height: 240px;
+    width: 340px;
+    margin-bottom: 30px;
+}
+.recent-projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 5%;
+    height: 600px;
+}
+.section-projects h3{
+    width: 15%;
+    margin-left: 7%;
+
+}
+.cards{
+    height: 444px;
+    background-color: white;
+    margin-bottom: 10%;
+    margin-left: 20px;
+}
+.cards p, .cards h5, .cards a{
+    background-color: white;
+    margin-left: 10%;
+}
+.cards a{
+    position: relative;
+    top: 50px;
+    color: #072AC8;
+}
+
+/* logo images section */
+.logo-brands-img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.section-logo-brands{
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15% 0px;
+}
+/* section cover */
+#hero-img{
+    height: 630px;
+    width: 570px;
+    background-color: none;
+}
+#icon-payment{
+    height: 256px;
+    width: 230px;
+    position: absolute;
+    right: 400px;
+    background-color:transparent;
+}
+#thumb-icon{
+    height: 230px;
+    width: 230px;
+    position: relative;
+    left: 650px;
+    background-color: transparent;
+}
+.cover-section{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2% 50px 8% 0px;
+}
+#text-section-cover{
+    margin-left: 150px;
+    width: 30%;
+}
+#see-our-work-bt{
+    border: none;
+    margin-left: 25px;
+}
+#butt{
+    margin-top: 40px;
+}
