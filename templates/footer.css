@@ -1,0 +1,26 @@
+footer{
+    height: 242px;
+    color:#6B708D;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px;
+    font-size: 15px;
+}
+#footer-link1 a{
+    margin: 40px;
+    color: #072AC8;
+}
+#div-footer2{
+    margin-bottom: 60px;
+}
+#img-footer{
+width: 220px;
+}
+#footer-logo{
+    height: 30px;
+    width: 100px;
+    margin-bottom: 25px;
+}

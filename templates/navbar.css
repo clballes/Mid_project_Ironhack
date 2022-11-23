@@ -1,0 +1,39 @@
+/* Navigation css */
+.nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 20px 0px 20px;
+    margin: 0px 50px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+li {
+    margin: 0px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #6B708D;
+}
+
+li a:hover{
+    color: #072AC8;
+}
+.contact-button{
+    background-color: #072AC8;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    text-decoration: none;
+}
+.contact-button:hover{
+    background-color: #292E47;
+}
