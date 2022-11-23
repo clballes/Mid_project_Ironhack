@@ -1,26 +1,30 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
 h2{
     font-weight: 900;
     font-size: 45px;
     margin-bottom: 40px;
+    margin-left: 7%;
 }
 #section-contact{
-    margin-left: 95px;
+    margin-top: 100px;
 }
+
 form {
     padding: 0px 100px;
+    margin-bottom: 100px;
 }
 #message, #email, #phone, #fullName{
-    background-color: #6B708D;
-    opacity: 0.10;
+    background-color: rgba(107, 112, 141, 0.1);
     color: black;
     border: none;
     margin-top: 5px;
 } 
 input::placeholder {
-    color: red;
-    font-weight: 900;
-    stop-opacity: inherit;
-    /* no se ve bien por la opacidad que arrastra */
+    color: grey;
+    background-position-x: left;
+    background-position-y: top;
 }
 #message{
     width: 100%;
@@ -48,7 +52,8 @@ input::placeholder {
     margin-right: 20px;
 }
 #email, #phone {
-    padding: 20px 225px;
+    padding: 20px;
+    width: 555px;
 }
 #submit-bt{
     margin-top: 30px;
