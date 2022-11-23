@@ -28,15 +28,15 @@ Homepage files
 
 ### 22-11-2021
 
-Finsih html and css styles of homepage before lunch.
-This afternoon finish product page css template.
+Morning: Finsih html and css styles of homepage.
+Afternoon finish product page css template.
 
 ### 23-11-2021
 
 Morning: finish css contact form
-Afternoon: responsive
+Afternoon: javascript dynamic
 
 ### 24-11-2021
 
 Morning: responsive
-Afternoon: javascript dynamic
+Afternoon: responsive

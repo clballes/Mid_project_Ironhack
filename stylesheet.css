@@ -4,6 +4,7 @@
     margin: 0px;
     width: auto;
     background-color: #F2F4FC;
+    font-family: 'Roboto', sans-serif;
 }
 h1{
     font-weight: 900;
@@ -53,13 +54,15 @@ a{
 li a:hover{
     color: #072AC8;
 }
-
 .contact-button{
     background-color: #072AC8;
     color: white;
     padding: 15px 25px;
     border: none;
     text-decoration: none;
+}
+.contact-button:hover{
+    background-color: #292E47;
 }
 /* questions and email form css */
 .questions{
@@ -110,6 +113,7 @@ footer{
 }
 #footer-link1 a{
     margin: 40px;
+    color: #072AC8;
 }
 #div-footer2{
     margin-bottom: 60px;
@@ -146,9 +150,8 @@ width: 220px;
     height: 33px;
     width: 33px;
     background-color: #D1EDFF;
+    padding: 10px;
     border-radius: 80px;
-    background-size:cover;
-    background-size:200px;
     margin-top: 60px;
     margin-left: 40px;
 }
@@ -252,14 +255,13 @@ width: 220px;
 .recent-projects{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     margin-left: 5%;
     height: 600px;
 }
 .section-projects h3{
-    width: 15%;
-    margin-left: 7%;
-
+    margin-left: 16%;
+    margin-bottom: 5%;
 }
 .cards{
     height: 444px;
@@ -278,10 +280,6 @@ width: 220px;
 }
 
 /* logo images section */
-.logo-brands-img{
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
 .section-logo-brands{
     margin: 0px 100px;
     display: flex;
@@ -321,7 +319,7 @@ width: 220px;
 }
 #see-our-work-bt{
     border: none;
-    margin-left: 25px;
+    margin-right: 25px;
 }
 #butt{
     margin-top: 40px;

@@ -1,0 +1,65 @@
+h2{
+    font-weight: 900;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+#section-contact{
+    margin-left: 95px;
+}
+form {
+    padding: 0px 100px;
+}
+#message, #email, #phone, #fullName{
+    background-color: #6B708D;
+    opacity: 0.10;
+    color: black;
+    border: none;
+    margin-top: 5px;
+} 
+input::placeholder {
+    color: red;
+    font-weight: 900;
+    stop-opacity: inherit;
+    /* no se ve bien por la opacidad que arrastra */
+}
+#message{
+    width: 100%;
+    height: 200px;
+}
+#fullName {
+    width: 97%;
+    padding: 20px;
+}
+.div-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+.email-class, .phone-class{
+    width: 50%;
+}
+.phone-class{
+    margin-left: 20px;
+}
+.email-class{
+    margin-right: 20px;
+}
+#email, #phone {
+    padding: 20px 225px;
+}
+#submit-bt{
+    margin-top: 30px;
+    height: 70px;
+    padding: 5px 45%;
+    border: none;
+    background-color:#072AC8;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+#submit-bt:hover{
+    background-color: #292E47;
+}

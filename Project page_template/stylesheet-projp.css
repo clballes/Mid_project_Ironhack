@@ -1,0 +1,79 @@
+#main-section1{
+    width: 1100px;
+    height: 444px;
+}
+*{
+    background-color: #F2F4FC;
+}
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+p {
+    color:#6B708D;
+    font-size: 20px;
+}
+h5{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#img-pg p{
+    width: 1110px;
+    text-align: left;
+}
+#img-pg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recent-projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5%;
+    height: 600px;
+}
+.img-recent-proj{
+    height: 240px;
+    width: 340px;
+}
+.section-projects h3{
+    margin-left: 16%;
+}
+.cards{
+    height: 444px;
+    background-color: white;
+    margin-bottom: 10%;
+    margin-left: 20px;
+}
+.cards p, .cards h5, .cards a{
+    background-color: white;
+    margin-left: 10%;
+}
+.cards a{
+    color: #072AC8;
+    text-decoration: none;
+}
+.main-section{
+    width: 100%;
+}
+.main-section-div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+#sect-p{
+    margin-left: 250px;
+}
+#sect-p1{
+    margin-right: 50px;
+}
