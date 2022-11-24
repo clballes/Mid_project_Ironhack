@@ -1,0 +1,181 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .cards-our-services{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .div-cards p{
+        text-align: left;
+    }
+    .div-cards{
+        width: 100%;
+    }
+    .our-services h3{
+        text-align: center;
+    }
+    .emoji, .emoji1{
+        display: none;
+    }
+    #testimonials-text h3 {
+        margin-bottom: 20px;
+    }
+    #testimonials-text p {
+        font-size: 20px;
+    }
+    #paragraph-testim{
+        width: 500px;
+    }
+    .recent-projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        margin: 0px;
+    }
+    .cards p{
+        text-align: left;
+    }
+    .section-projects h3{
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+    .section-logo-brands{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 100px 100px;
+        gap: 50px 100px;
+    }
+    #amazon-logo{
+        display: none;
+    }
+    #thumb-icon, #icon-payment{
+        display: none;
+    }
+    #hero-img{
+        height: 540px;
+        width: 480px;
+    }
+    .cover-section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 10px 10px;
+        height: 100%;
+        width: 100%;
+    }
+    #text-section-cover{
+        margin: 0px;
+        width: 100%;
+    }
+    #text-section-cover h1{
+        text-align: center;
+        font-size: 35px;
+        margin: 20px 20px;
+    }
+    #text-section-cover p{
+        margin: 20px 20px;
+    }
+    #but{
+        margin: 0px 100px;
+    }
+    #see-our-work-bt{
+        margin: 0px;
+    }
+    .contact-button{
+        padding: 0px;
+        margin: 10px;
+        z-index: 100;
+        display: block;
+    }
+}
+@media  (min-width:600px) and  (max-width: 768px){
+    #hero-img{
+        height: 450px;
+        width: 390px;
+    }
+    #section-img{
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    #text-section-cover {
+        margin-left: 100px;
+        width: 50%;
+    }
+    #icon-payment{
+        left: 60%;
+    }
+    .cover-section{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-right: 0px;
+    }
+    #thumb-icon, #icon-payment{
+        display: none;
+    }
+    h1{
+        font-size: 40px;
+        text-align: center;
+        margin: 10px 10px;
+    }
+    p {
+        text-align: center;
+        margin: 10px 10px;
+        font-size: 20px;
+    }
+    #butt{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards-our-services{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .div-cards p{
+        text-align: left;
+    }
+    .div-cards{
+        width: 100%;
+    }
+    .our-services h3{
+        text-align: center;
+    }
+    .emoji, .emoji1{
+        display: none;
+    }
+    #testimonials-text h3 {
+        margin-bottom: 20px;
+    }
+    #testimonials-text p {
+        font-size: 20px;
+    }
+    #paragraph-testim{
+        width: 500px;
+    }
+    .recent-projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        margin: 0px;
+    }
+    .cards p{
+        text-align: left;
+    }
+    .section-projects h3{
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+    .section-logo-brands{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 100px 100px;
+        gap: 50px 100px;
+    }
+    #amazon-logo{
+        display: none;
+    }
+}   

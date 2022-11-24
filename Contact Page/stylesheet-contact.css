@@ -27,9 +27,10 @@ input::placeholder {
     background-position-y: top;
 }
 #message{
-    width: 100%;
-    height: 200px;
+    width: 97%;
+    padding: 20px 20px 100px 20px;
 }
+
 #fullName {
     width: 97%;
     padding: 20px;
@@ -67,4 +68,17 @@ input::placeholder {
 }
 #submit-bt:hover{
     background-color: #292E47;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   h2 {
+    margin-left: 18%;
+   } 
+   #email, #phone {
+   padding: 20px 0px 20px 7px;
+   width: 140px;
+    }
+    #submit-bt{
+        width: 330px;
+    }
 }

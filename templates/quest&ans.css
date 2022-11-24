@@ -37,3 +37,39 @@ h3 {
 #subscribe {
     margin-top: 50px;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #email{
+        width: 300px;
+        height: 70px;
+    }
+    #butt-sub{
+        margin-left: 100px;
+        margin-top: 20px;
+        height: 60px;
+    }
+    #subscribe{
+        margin-left: 50px;
+    }
+}
+
+/* For tablets */
+@media only screen and (min-width: 600px) {
+    #email{
+        width: 300px;
+        height: 70px;
+    }
+    #butt-sub{
+        margin-left: 100px;
+        margin-top: 20px;
+        height: 60px;
+    }
+    #subscribe{
+        margin-left: 50px;
+    }
+
+}
+/* For desktops */
+@media only screen and (min-width: 768px) {
+
+}

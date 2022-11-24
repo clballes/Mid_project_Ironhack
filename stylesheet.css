@@ -25,6 +25,13 @@ h5{
     font-size: 25px;
     margin-bottom: 10px;
 }
+.contact-button{
+    background-color: #072AC8;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    text-decoration: none;
+}
 /* Section Our Services */
 .our-services{
     margin-bottom: 100px;
@@ -196,6 +203,7 @@ h5{
     justify-content: space-evenly;
     margin: 15% 0px;
 }
+
 /* Section cover hero*/
 #hero-img{
     height: 630px;
@@ -210,10 +218,14 @@ h5{
     background-color:transparent;
 }
 #thumb-icon{
-    height: 230px;
+    position: absolute;
+    height: 256px;
     width: 230px;
-    position: relative;
-    left: 650px;
+    left: auto;
+    top: auto;
+    right: 0%;
+    bottom: -70%;
+    max-width: 375px;
     background-color: transparent;
 }
 .cover-section{
