@@ -1,5 +1,4 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 420px) {
     .cards-our-services{
         display: flex;
         flex-direction: column;
@@ -25,6 +24,9 @@
     }
     #paragraph-testim{
         width: 500px;
+    }
+    #testimonials-text{
+        width: 100%;
     }
     .recent-projects{
         display: flex;
@@ -89,17 +91,12 @@
         display: block;
     }
 }
-@media  (min-width:600px) and  (max-width: 768px){
+@media  (min-width:420px) and (max-width: 768px){
     #hero-img{
         height: 450px;
         width: 390px;
     }
-    #section-img{
-        margin-top: 30px;
-        margin-left: 60px;
-    }
     #text-section-cover {
-        margin-left: 100px;
         width: 50%;
     }
     #icon-payment{
@@ -120,7 +117,6 @@
     }
     p {
         text-align: center;
-        margin: 10px 10px;
         font-size: 20px;
     }
     #butt{
@@ -152,9 +148,6 @@
     #testimonials-text p {
         font-size: 20px;
     }
-    #paragraph-testim{
-        width: 500px;
-    }
     .recent-projects{
         display: flex;
         flex-direction: column;
@@ -178,4 +171,99 @@
     #amazon-logo{
         display: none;
     }
-}   
+    .section-projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px){
+    .cover-section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #text-section-cover{
+        width: 100%;
+        margin: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+    #text-section-cover h1, #text-section-cover p{
+        text-align: center;
+    }
+    #thumb-icon {
+        bottom: -10%;
+    }
+    #icon-payment{
+        right: 60%;
+    }
+    .recent-projects {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 5%;
+        width: 100%;
+        align-content: flex-end;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100%;
+        margin: 0px;
+    }
+    .section-projects h3{
+        text-align: inherit;
+        margin-bottom: 5%;
+        width: 100%;
+        margin-left: 8%;
+    }
+    .cards{
+        margin-left: 0px;
+        width: 38%;
+    }
+}
+@media only screen and (min-width: 990px){
+    .cover-section{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #text-section-cover{
+        width: 100%;
+        margin: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+    #text-section-cover h1, #text-section-cover p{
+        text-align: center;
+    }
+    #thumb-icon {
+        bottom: -20%;
+    }
+    .recent-projects {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 5%;
+        width: 100%;
+        align-content: flex-end;
+        align-items: center;
+        height: 100%;
+        margin: 0px;
+    }
+    .section-projects h3{
+        text-align: inherit;
+        margin-bottom: 5%;
+        width: 100%;
+        margin-left: 8%;
+    }
+    .cards{
+        margin-left: 5%;
+        width: 38%;
+    }
+}

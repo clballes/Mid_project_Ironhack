@@ -5,12 +5,11 @@ h2{
     font-weight: 900;
     font-size: 45px;
     margin-bottom: 40px;
-    margin-left: 7%;
+    margin-left: 10%;
 }
 #section-contact{
     margin-top: 100px;
 }
-
 form {
     padding: 0px 100px;
     margin-bottom: 100px;
@@ -53,8 +52,8 @@ input::placeholder {
     margin-right: 20px;
 }
 #email, #phone {
-    padding: 20px;
-    width: 555px;
+    padding: 5%;
+    width: 90%;
 }
 #submit-bt{
     margin-top: 30px;
@@ -70,15 +69,55 @@ input::placeholder {
     background-color: #292E47;
 }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-   h2 {
-    margin-left: 18%;
-   } 
-   #email, #phone {
-   padding: 20px 0px 20px 7px;
-   width: 140px;
+@media only screen and (max-width: 420px) {
+    .div-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 10%;
     }
-    #submit-bt{
-        width: 330px;
+    .phone-class, .email-class{
+        margin-left: 0px;
+        width: 100%;
+        margin: 2% 0px;
+    } 
+    #email, #phone {
+        padding: 4%;
+        width: 100%;
+    }
+    #div-message{
+        margin-top: 20%;
+    }
+    .div-contact{
+        width: 180px;
+    }
+    h2 {
+        margin-left: 20%;
+    }
+}
+    
+@media  (min-width:420px) and  (max-width: 768px){
+    .div-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 10%;
+    }
+    .phone-class, .email-class{
+        margin-left: 0px;
+        width: 100%;
+        margin: 2% 0px;
+    } 
+    #email, #phone {
+        padding: 4%;
+        width: 95%;
+    }
+    #div-message{
+        margin-top: 20%;
+    }
+    h2 {
+        margin-left: 13%;
     }
 }

@@ -1,8 +1,7 @@
 /* General style rules */
 * {
     padding: 0px;
-    margin: 0px;
-    width: auto;
+    margin: 0 auto;
     background-color: #F2F4FC;
     font-family: 'Roboto', sans-serif;
 }
@@ -109,7 +108,7 @@ h5{
 .img-testimonials{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: column; 
     background-color: #292E47;
     margin-top: 100px;
 }
@@ -119,6 +118,7 @@ h5{
     align-items: center;
     width: 40%;
     text-align: center;
+
 }
 #testimonials-text, #testimonials-text p, #testimonials-text h3, #testimonials-text div{
     background-color: #292E47;
@@ -141,11 +141,7 @@ h5{
     font-size: 25px;
     letter-spacing: 1px;
 }
-#testimonials-text h3{
-    width: 140%;
-    position: relative;
-    bottom: 120px;
-}
+
 #testimonials-text div p{
     font-size: 15px;
     color: #D1EDFF;
@@ -157,16 +153,15 @@ h5{
     margin-right: 20px;
 }
 .kristin{
-    position: relative;
-    top: 100px;
+    margin-top: 10%;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
 }
 /* Recent projects section*/
 .img-recent-proj{
-    height: 240px;
-    width: 340px;
+    height: 50%;
+    width: 100%;
     margin-bottom: 30px;
 }
 .recent-projects{
@@ -238,6 +233,7 @@ h5{
 #text-section-cover{
     margin-left: 150px;
     width: 30%;
+    height: 100%;
 }
 #see-our-work-bt{
     border: none;
@@ -245,4 +241,7 @@ h5{
 }
 #butt{
     margin-top: 40px;
+}
+#section-img{
+    position: relative;
 }

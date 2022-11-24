@@ -1,0 +1,90 @@
+@media  (max-width:420px){
+    .recent-projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        margin: 0px;
+    }
+    .cards p{
+        text-align: left;
+    }
+    .section-projects h3{
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+}
+@media  (min-width:420px) and (max-width: 768px){
+    .main-section-div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 6%;
+    }
+    #sect-p{
+        margin-left: 0px;
+    }
+    .recent-projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        margin: 0px;
+    }
+    .cards p{
+        text-align: left;
+    }
+    .section-projects h3{
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 990px){
+    .recent-projects {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 5%;
+        width: 100%;
+        align-content: flex-end;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100%;
+        margin: 0px;
+    }
+    .section-projects h3{
+        text-align: inherit;
+        margin-bottom: 5%;
+        width: 100%;
+        margin-left: 8%;
+    }
+    .cards{
+        margin-left: 2%;
+        width: 38%;
+    }
+}
+@media only screen and (min-width: 990px){
+    .recent-projects {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 5%;
+        width: 100%;
+        align-content: flex-end;
+        align-items: center;
+        height: 100%;
+        margin: 0px;
+    }
+    .section-projects h3{
+        text-align: inherit;
+        margin-bottom: 5%;
+        width: 100%;
+        margin-left: 8%;
+    }
+    .cards{
+        margin-left: 5%;
+        width: 38%;
+    }
+}
