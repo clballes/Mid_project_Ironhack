@@ -21,20 +21,26 @@ const questions = document.querySelector('.questions-loader')
 
 
 // json API
-let placeholder = fetch('https://jsonplaceholder.typicode.com/posts?_start=0&_limit=3')
+let placeholder = fetch(
+    "https://jsonplaceholder.typicode.com/posts?_start=0&_limit=3"
+  )
     .then((response) => response.json())
     .then((cleanResponse) => {
-        let externalApiInfo = "";
-        cleanResponse.forEach((post) => {
-            externalApiInfo += `
-            <div class="cards">
-                     <img src="/project-assets/projects-section/${post.id}.jpg" alt="icon1" class="img-recent-proj">
-                     <h5>${post.title.slice(0, 8)}</h5>
-                     <p>${post.body.slice(0, 20)}...</p>
-                    <a href="/Project_page_template/index-projp.html" target="_blank">Learn more</a>
-           </div>
-            `
-        })
-        document.querySelector('.recent-projects').innerHTML = externalApiInfo;
+      let externalApiInfo = "";
+      cleanResponse.forEach((post) => {
+        externalApiInfo += `
+              <div class="cards">
+                       <img src="/project-assets/projects-section/${
+                         post.id
+                       }.jpg" alt="icon1" class="img-recent-proj">
+                       <h5>${post.title.slice(0, 8)}</h5>
+                       <p>${post.body.slice(0, 20)}...</p>
+                      <a href="/Project_page_template/index-projp.html?${
+                        post.id
+                      }">Learn more</a>
+             </div>
+              `;
+      });
+      document.querySelector(".recent-projects").innerHTML = externalApiInfo;
     });
     
