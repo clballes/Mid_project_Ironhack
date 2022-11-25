@@ -24,6 +24,13 @@ h5{
     font-size: 25px;
     margin-bottom: 10px;
 }
+.getintouch-button{
+    background-color:  #072AC8;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    text-decoration: none;
+}
 .contact-button{
     background-color: #072AC8;
     color: white;
@@ -43,8 +50,8 @@ h5{
     margin-bottom: 30px;
 }
 .div-cards{
-    height: 380px;
-    width: 340px;
+    height: 100%;
+    max-width: 340px;
     background-color: white;
     margin: 0px 10px 0px 10px;
     display: flex;
@@ -67,6 +74,7 @@ h5{
 }
 .div-cards a {
     color: #072AC8;
+    margin: 30px;
 }
 .div-cards p {
     font-size: 20px;
@@ -241,6 +249,11 @@ h5{
 }
 #butt{
     margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    width: 70%;
 }
 #section-img{
     position: relative;

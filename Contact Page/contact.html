@@ -1,41 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
     </style>
-    <link rel="stylesheet" href="/Contact Page/stylesheet-contact.css">
-</head>
-<body>
-    <nav class="nav-loader"></nav>
+    <link rel="stylesheet" href="/templates/navbar.css" />
+    <link rel="stylesheet" href="/Contact Page/stylesheet-contact.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <img src="/project-assets/logos/circle.svg" alt="circle logo" />
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+      </ul>
+      <div class="hamburguer">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <a href="/Contact Page/contact.html" class="contact-button">Contact Us</a>
+    </nav>
     <section id="section-contact">
-        <h2>Contact Us</h2>
-        <form action="">
-            <label for="fullName">Full name *</label><br>
-            <input type="text" id="fullName" placeholder="Enter your full name" required><br>
-            <div class="div-contact">
-                <div class="email-class">
-                    <label for="email">Email</label><br>
-                    <input type="email" id="email" placeholder="Enter your email adress" ><br>
-                </div>
-                <div class="phone-class">
-                    <label for="phone">Phone</label><br>
-                    <input type="number" id="phone" placeholder="Enter your phone number" ><br>
-                </div>
-            </div>
-            <div id="div-message">
-                <label for="message">Message *</label><br>
-                <input type="text" id="message" placeholder="Write your message here..." required><br>
-            </div>
-            <input type="submit" value="Submit" id="submit-bt">
-        </form>
+      <h2>Contact Us</h2>
+      <form action="">
+        <label for="fullName">Full name *</label><br />
+        <input
+          type="text"
+          id="fullName"
+          placeholder="Enter your full name"
+          required
+        /><br />
+        <div class="div-contact">
+          <div class="email-class">
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email adress"
+            /><br />
+          </div>
+          <div class="phone-class">
+            <label for="phone">Phone</label><br />
+            <input
+              type="number"
+              id="phone"
+              placeholder="Enter your phone number"
+            /><br />
+          </div>
+        </div>
+        <div id="div-message">
+          <label for="message">Message *</label><br />
+          <input
+            type="text"
+            id="message"
+            placeholder="Write your message here..."
+            required
+          /><br />
+        </div>
+        <input type="submit" value="Submit" id="submit-bt" />
+      </form>
     </section>
     <footer class="footer-loader"></footer>
     <script src="/index.js"></script>
     <script src="contact.js"></script>
-</body>
+    <script src="/templates/navbar_hamb.js"></script>
+  </body>
 </html>

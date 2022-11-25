@@ -1,9 +1,9 @@
-const nav = document.querySelector('.nav-loader')
-fetch('/templates/navbar.html')
-    .then(res => res.text())
-    .then(data => {
-        nav.innerHTML = data
-    });
+// const nav = document.querySelector('.nav-loader')
+// fetch('/templates/navbar.html')
+//     .then(res => res.text())
+//     .then(data => {
+//         nav.innerHTML = data
+//     });
 
 const footer = document.querySelector('.footer-loader')
 fetch('/templates/footer.html')
@@ -19,6 +19,8 @@ const questions = document.querySelector('.questions-loader')
             questions.innerHTML = data
         });
 
+
+// json API
 let placeholder = fetch('https://jsonplaceholder.typicode.com/posts?_start=0&_limit=3')
     .then((response) => response.json())
     .then((cleanResponse) => {

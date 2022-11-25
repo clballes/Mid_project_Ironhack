@@ -2,6 +2,5 @@
 @media (min-width:420px) and (max-width: 768px){
     form{
         display: flex;
-        background-color: black;
     }
 }

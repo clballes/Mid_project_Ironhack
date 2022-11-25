@@ -4,6 +4,9 @@
         flex-direction: column;
         max-width: 100%;
     }
+    #butt{
+        width: 100%;
+    }
     .div-cards p{
         text-align: left;
     }
@@ -69,6 +72,8 @@
     #text-section-cover{
         margin: 0px;
         width: 100%;
+        margin-top: 10%;
+
     }
     #text-section-cover h1{
         text-align: center;
@@ -84,7 +89,8 @@
     #see-our-work-bt{
         margin: 0px;
     }
-    .contact-button{
+    .contact-butto
+    width: 100%;n{
         padding: 0px;
         margin: 10px;
         z-index: 100;
@@ -96,8 +102,13 @@
         height: 450px;
         width: 390px;
     }
+    #butt{
+        width: 100%;
+        width: 100%;
+    }
     #text-section-cover {
         width: 50%;
+        margin-top: 10%;
     }
     #icon-payment{
         left: 60%;
@@ -120,6 +131,7 @@
         font-size: 20px;
     }
     #butt{
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -191,6 +203,7 @@
         display: flex;
         flex-direction: column;
         height: 400px;
+        margin-top: 10%;
     }
     #text-section-cover h1, #text-section-cover p{
         text-align: center;
@@ -223,6 +236,10 @@
         margin-left: 0px;
         width: 38%;
     }
+    #butt{
+        width: 100%;
+        width: 40%;
+    }
 }
 @media only screen and (min-width: 990px){
     .cover-section{
@@ -231,6 +248,10 @@
         flex-direction: row-reverse;
         margin-bottom: 20px;
         width: 100%;
+    }
+    #butt{
+        width: 100%;
+        width: 80%;
     }
     #text-section-cover{
         width: 100%;
