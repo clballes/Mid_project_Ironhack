@@ -1,10 +1,3 @@
-// const body = document.querySelector('.body-loader')
-// fetch('/Project page_template/index-projp.html')
-//     .then(res => res.text())
-//     .then(data => {
-//         body.innerHTML = data
-//     });
-
 let holder = fetch('/Project_page_template/projects.json')
     .then((response) => response.json())
     .then((cleanResponse) => {

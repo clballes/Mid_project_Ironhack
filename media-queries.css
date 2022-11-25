@@ -11,7 +11,7 @@
         text-align: left;
     }
     .div-cards{
-        width: 100%;
+        max-width: 100%;
     }
     .our-services h3{
         text-align: center;
@@ -60,6 +60,7 @@
     #hero-img{
         height: 540px;
         width: 480px;
+        margin-top: 20%;
     }
     .cover-section{
         display: flex;
@@ -68,6 +69,7 @@
         margin: 10px 10px;
         height: 100%;
         width: 100%;
+        margin-top: 8%;
     }
     #text-section-cover{
         margin: 0px;
@@ -101,6 +103,7 @@
     #hero-img{
         height: 450px;
         width: 390px;
+        margin-top: 20%;
     }
     #butt{
         width: 100%;
@@ -117,6 +120,7 @@
         display: flex;
         flex-direction: column-reverse;
         margin-right: 0px;
+        margin-top: 8%;
     }
     #thumb-icon, #icon-payment{
         display: none;
@@ -146,7 +150,7 @@
         text-align: left;
     }
     .div-cards{
-        width: 100%;
+        max-width: 100%;
     }
     .our-services h3{
         text-align: center;
@@ -250,8 +254,7 @@
         width: 100%;
     }
     #butt{
-        width: 100%;
-        width: 80%;
+        width: 70%;
     }
     #text-section-cover{
         width: 100%;
