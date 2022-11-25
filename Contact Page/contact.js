@@ -15,6 +15,8 @@ submit.addEventListener("click", (e) => {
         },
     })
         .then((response) => response.json())
-        .then((json) => console.log(json))
+        .then((json) => alert(JSON.stringify(
+            `Full Name: ${fullName.value}  Email: ${email.value} Phone number: ${phone.value} Message: ${message.value}`
+        )))
         .catch((error) => console.log(error));
-});
+})
